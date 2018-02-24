@@ -1369,11 +1369,11 @@ h6 {
 
 a {
   line-height: inherit;
-  color: blue;
+  color: mediumblue;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: blue; }
+    color: mediumblue; }
   a img {
     border: 0; }
 
