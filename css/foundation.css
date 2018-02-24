@@ -3593,7 +3593,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     color: #1779ba; }
     .tabs-title > a:hover {
       background: #fefefe;
-      color: blue; }
+      color: mediumblue; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
       color: #1779ba; }
