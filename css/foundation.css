@@ -1369,11 +1369,17 @@ h6 {
 
 a {
   line-height: inherit;
-  color: mediumblue;
+  color: #ebebe9;
   text-decoration: none;
+        font-size: 120%;
+        font-family: 'DalaFlodaRoman';
+        letter-spacing: 0.04rem;
   cursor: pointer; }
   a:hover, a:focus {
-    color: mediumblue; }
+    color: #ebebe9;
+          font-size: 120%;
+        font-family: 'DalaFlodaRoman';
+    letter-spacing: 0.04rem;}
   a img {
     border: 0; }
 
