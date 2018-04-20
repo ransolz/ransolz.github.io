@@ -128,6 +128,7 @@ to {
     text-align: left;
     background: none;
     padding-left: 0;
+    
 }
 .btn.btn-primary {
     border: 0;
@@ -377,7 +378,10 @@ header#main-header a.nav-link {
 
 header#main-header a.brand {
     position: relative;
+    overflow: hidden;
 }
+
+
 @media screen and (max-width:950px) {
     header#main-header {
     height: auto;
@@ -439,6 +443,7 @@ nav.main-nav ul li:hover ul.dropdown {
     ul.nav-links {
     overflow-y: auto;
     padding-bottom: 16px;
+        overflow: hidden;
 }
 ul.nav-links a.nav-link {
     color: #000;
@@ -470,9 +475,13 @@ ul.nav-links li ul.dropdown li a {
 }
 ul.nav-links li.brand {
     background: none;
-    display: block;
-    padding: 46px 0!important;
+padding:47px 0!important;
+overflow: hidden;
+    position: static;
 }
+
+    
+
 .responsive-nav {
     width: 32px;
     height: 32px;
@@ -496,6 +505,8 @@ ul.nav-links li {
 }
 ul.nav-links li.brand, ul.nav-links li ul.dropdown li {
     opacity: 1;
+    overflow: hidden;
+
 }
 ul.nav-links li ul.dropdown li a {
     font-weight: 300!important;
