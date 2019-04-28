@@ -61,8 +61,8 @@ sub {
 img {
     border: 0;
 }
-svg:not(:root) {
-    overflow: hidden;
+/* svg:not(:root) {
+    overflow: hidden; */
 }
 figure {
     margin: 1em 40px;
@@ -71,8 +71,8 @@ hr {
     box-sizing: content-box;
     height: 0;
 }
-pre {
-    overflow: auto;
+/* pre {
+    overflow: auto; */
 }
 code, kbd, pre, samp {
     font-family: monospace, monospace;
@@ -83,8 +83,8 @@ button, input, optgroup, select, textarea {
     font: inherit;
     margin: 0;
 }
-button {
-    overflow: visible;
+/* button {
+    overflow: visible; */
 }
 button, select {
     text-transform: none;
@@ -126,8 +126,8 @@ legend {
     border: 0;
     padding: 0;
 }
-textarea {
-    overflow: auto;
+/* textarea {
+    overflow: auto; */
 }
 optgroup {
     font-weight: 700;
@@ -3075,7 +3075,7 @@ body * {
     left: 0;
     right: 0;
     bottom: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 @media screen and (max-width:1200px) {
     .vbottom.fs, .vcenter.fs {
@@ -3173,7 +3173,7 @@ body * {
     margin-bottom: 24px!important;
 }
 body, html {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 #wrapper {
     min-height: 100vh;
